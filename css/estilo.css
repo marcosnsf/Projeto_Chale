@@ -51,4 +51,21 @@ body{
     right: 0;
     z-index:2;
 }
+#conteudo_menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+#menu_locais{
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: 0.7em;
+    color: #8b8448;
+}
+#menu_locais .locais{
+    float: left;
+    
+}
 /* Topo */
