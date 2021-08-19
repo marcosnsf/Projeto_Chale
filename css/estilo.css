@@ -12,7 +12,7 @@ body{
     background: #ede9cc;
     margin: 0 auto;
     min-width: 740px;
-    max-width:1180px ;
+    max-width:1180px;
 }
 /* Container */
 /* Topo */
@@ -24,11 +24,23 @@ body{
 }
 .area_logo{
     position: absolute;
-    background:  url("../img/topo-imagem-principal2.png") no-repeat;
+    background:  url("../img/topo-imagem-principal.png") no-repeat;
     width: 100%;
     height: 250px;
     top: 0;
     left: 0;
+    z-index: 1;
+}
+.logo  a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url("../img/logo.png");
+    z-index: 3;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
 }
 .area_menu{
     position: absolute;
@@ -37,5 +49,6 @@ body{
     height: 250px;
     top: 0;
     right: 0;
+    z-index:2;
 }
 /* Topo */
