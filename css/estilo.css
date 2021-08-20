@@ -106,4 +106,21 @@ ul#navegacao a:hover{
     float: right;
     
 }
-/* Topo */
+/* Fim Topo */
+/* Conteudo */
+
+.area_principal{
+    float: left;
+    width: 50%;
+}
+.area_lateral{
+    float: right;
+    width: 50%;
+}
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+/* Fim conteudo */
