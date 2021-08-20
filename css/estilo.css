@@ -9,7 +9,7 @@ body{
 }
 /* Container */
 .container{
-    background: #ede9cc;
+    background: #ede9cc url("../img/bg-container.png" )top center repeat-y;
     margin: 0 auto;
     min-width: 840px;
     max-width:1200px;
@@ -112,10 +112,14 @@ ul#navegacao a:hover{
 .area_principal{
     float: left;
     width: 50%;
+    background: url("../img/bg-area-principal.png")top left repeat-x;
+    padding: 15px 0;
 }
 .area_lateral{
     float: right;
     width: 50%;
+    background: url("../img/bg-area-lateral.png")top left repeat-x;
+    padding: 20px 0;
 }
 .conteudo{
     margin: 0 auto;
@@ -124,3 +128,8 @@ ul#navegacao a:hover{
 
 
 /* Fim conteudo */
+/* Rodape */
+#rodape{
+    clear: both;
+}
+/* Fim rodape */
