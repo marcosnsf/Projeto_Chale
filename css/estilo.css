@@ -147,3 +147,24 @@ p{
     font-size: 1em ;
     margin-bottom: 10px;
 }
+
+/* Formatação area lateral */
+#beneficios li{ 
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+ }
+ #beneficios li a img{
+    float: left;
+    margin-right: 8px;
+ }
+ #beneficios li a p{
+    font-size: 0.9em;
+    color: #000;
+ }
+ #beneficios li a h3{
+    font-size: 1.1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url("../img/ornamento.png") no-repeat center right;
+ }
